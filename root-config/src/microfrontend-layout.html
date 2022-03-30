@@ -1,0 +1,16 @@
+<single-spa-router>
+  <main>
+    <application name="@NTTData/sidebar"></application>
+    <route default>
+      <h1>
+        ERROR 404: PAGE NOT FOUND
+      </h1>
+    </route>
+    <route path="list">
+      <application name="@NTTData/list-task"></application>
+    </route>
+    <route path="add">
+      <application name="@NTTData/add-task"></application>
+    </route>
+  </main>
+</single-spa-router>

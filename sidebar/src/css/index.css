@@ -1,0 +1,12 @@
+body{
+    font-family: Consolas;
+    margin: 0px;
+}
+
+header{
+    font-family: Consolas;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    height: 100px;
+}

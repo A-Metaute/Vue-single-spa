@@ -1,0 +1,22 @@
+{
+  "name": "@NTTData/sidebar",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "serve:standalone": "vue-cli-service serve --mode standalone"
+  },
+  "dependencies": {
+    "single-spa-vue": "^2.1.0",
+    "systemjs-webpack-interop": "^2.3.7",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "vite": "^2.8.0",
+    "vue-cli-plugin-single-spa": "~3.3.0"
+  }
+}
